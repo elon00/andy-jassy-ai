@@ -1,0 +1,55 @@
+{
+  "name": "andy-jassy-ai-mcp",
+  "version": "1.0.0",
+  "description": "Andy Jassy AI Model Context Protocol Server for Autonomous Hyperscale Cloud Infrastructure, AWS Bedrock Model Routing, Trainium Silicon Optimization & Global Commerce Logistics Protocol",
+  "tools": [
+    {
+      "name": "audit_cloud_silicon_cost_efficiency",
+      "description": "Evaluate distributed model training costs, FLOPS-per-watt efficiency on custom Trainium chips, and serverless routing latency",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "silicon_type": {
+            "type": "string"
+          },
+          "model_parameter_count": {
+            "type": "string"
+          },
+          "cloud_region": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "silicon_type",
+          "model_parameter_count"
+        ]
+      }
+    },
+    {
+      "name": "disburse_hyperscale_cloud_grant",
+      "description": "Trigger automated micro-escrow disbursements for sovereign cloud regional nodes, sustainable datacenter energy buildouts, and developer compute credits",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "category": {
+            "type": "string"
+          },
+          "recipient": {
+            "type": "string"
+          },
+          "amount_wei": {
+            "type": "string"
+          },
+          "proof_hash": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "category",
+          "recipient",
+          "amount_wei"
+        ]
+      }
+    }
+  ]
+}
